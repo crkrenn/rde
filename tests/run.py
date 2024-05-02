@@ -2,8 +2,10 @@ import importlib
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import numpy as np
+import sys
+sys.path.append("../build/src")
 
-Grid = importlib.import_module('RDE')
+import RDE as Grid
 
 n = 3
 x = 100
