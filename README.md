@@ -4,7 +4,7 @@
 cd rde
 git submodule update --init --recursive
 ```
-## make a virtual environment with the decorator package
+## make a virtual environment 
 ```
 python3.8 -m venv venv-rde
 source venv-rde/bin/activate
